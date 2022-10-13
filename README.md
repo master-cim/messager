@@ -1,0 +1,2 @@
+# messager
+Мессенджер на Python
