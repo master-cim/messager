@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
 
-    <title>Skull Py Chat</title>
+    <title>Master-CiM Chat</title>
 
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
@@ -24,9 +24,9 @@
 <py-script src="/client/chat.py"></py-script>
 <div class="container-xl">
     <div class="input-group my-3 mr-3">
-        <span class="input-group-text">Welcome to Skillbox Chat!</span>
+        <span class="input-group-text">Добро пожаловать в Master-CiM Chat!</span>
 
-            <select class="form-select" name="emoji">
+            <select class="form-select" id="emoji_selector">
                 <option value="🤠">🤠</option>
                 <option value="🥺">🥺</option>
                 <option value="😍">😍</option>
@@ -36,7 +36,7 @@
                 <option value="😂">😂</option>
             </select>
 
-        <span class="input-group-text">Sender:</span>
+        <span class="input-group-text">Автор:</span>
         <div class="col-sm">
             <input id="sender" type="text" class="form-control" placeholder="Введите имя">
         </div>
